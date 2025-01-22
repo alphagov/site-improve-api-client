@@ -4,7 +4,7 @@
 
 | Name | Type | Description | Notes |
 | ---- | ---- | ----------- | ----- |
-| **matching_policies** | [**Href226**](Href226.md) |  | [optional] |
+| **matching_policies** | [**Href225**](Href225.md) |  | [optional] |
 
 ## Example
 

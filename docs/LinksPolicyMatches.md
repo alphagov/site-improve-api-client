@@ -4,7 +4,7 @@
 
 | Name | Type | Description | Notes |
 | ---- | ---- | ----------- | ----- |
-| **content** | [**Href174**](Href174.md) |  | [optional] |
+| **content** | [**Href173**](Href173.md) |  | [optional] |
 
 ## Example
 

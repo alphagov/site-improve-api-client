@@ -4,10 +4,10 @@
 
 | Name | Type | Description | Notes |
 | ---- | ---- | ----------- | ----- |
-| **summary** | [**Href111**](Href111.md) |  | [optional] |
-| **check_history** | [**Href112**](Href112.md) |  | [optional] |
-| **groups** | [**Href113**](Href113.md) |  | [optional] |
-| **priority_pages** | [**Href114**](Href114.md) |  | [optional] |
+| **summary** | [**Href110**](Href110.md) |  | [optional] |
+| **check_history** | [**Href111**](Href111.md) |  | [optional] |
+| **groups** | [**Href112**](Href112.md) |  | [optional] |
+| **priority_pages** | [**Href113**](Href113.md) |  | [optional] |
 
 ## Example
 

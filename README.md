@@ -65,7 +65,6 @@ end
 
 api_instance = SiteimproveAPIClient::A11YNextGenApi.new
 site_id = 789 # Integer | Id for specific site.
-issue_kind = 'confirmed' # String | Kind of issue state requested (potential, passed or confirmed issues)
 opts = {
   conformance: ['inner_example'], # Array<String> | Conformance filter
   group_id: 789, # Integer | Id for specific group.
@@ -74,11 +73,11 @@ opts = {
 }
 
 begin
-  #Get issues from accessibility
-  result = api_instance.sites_site_id_a11y_issue_kinds_issue_kind_issues_get(site_id, issue_kind, opts)
+  #Get confirmed accessibility issues
+  result = api_instance.sites_site_id_a11y_issue_kinds_confirmed_issues_get(site_id, opts)
   p result
 rescue SiteimproveAPIClient::ApiError => e
-  puts "Exception when calling A11YNextGenApi->sites_site_id_a11y_issue_kinds_issue_kind_issues_get: #{e}"
+  puts "Exception when calling A11YNextGenApi->sites_site_id_a11y_issue_kinds_confirmed_issues_get: #{e}"
 end
 
 ```
@@ -89,11 +88,21 @@ All URIs are relative to *https://api.eu.siteimprove.com/v2*
 
 Class | Method | HTTP request | Description
 ------------ | ------------- | ------------- | -------------
-*SiteimproveAPIClient::A11YNextGenApi* | [**sites_site_id_a11y_issue_kinds_issue_kind_issues_get**](docs/A11YNextGenApi.md#sites_site_id_a11y_issue_kinds_issue_kind_issues_get) | **GET** /sites/{site_id}/a11y/issue_kinds/{issue_kind}/issues | Get issues from accessibility
-*SiteimproveAPIClient::A11YNextGenApi* | [**sites_site_id_a11y_issue_kinds_issue_kind_issues_issue_id_pages_get**](docs/A11YNextGenApi.md#sites_site_id_a11y_issue_kinds_issue_kind_issues_issue_id_pages_get) | **GET** /sites/{site_id}/a11y/issue_kinds/{issue_kind}/issues/{issue_id}/pages | Get pages with this issue from accessibility
-*SiteimproveAPIClient::A11YNextGenApi* | [**sites_site_id_a11y_issue_kinds_issue_kind_issues_issue_id_progress_history_get**](docs/A11YNextGenApi.md#sites_site_id_a11y_issue_kinds_issue_kind_issues_issue_id_progress_history_get) | **GET** /sites/{site_id}/a11y/issue_kinds/{issue_kind}/issues/{issue_id}/progress/history | Get progress for this issue from accessibility
-*SiteimproveAPIClient::A11YNextGenApi* | [**sites_site_id_a11y_issue_kinds_issue_kind_pages_get**](docs/A11YNextGenApi.md#sites_site_id_a11y_issue_kinds_issue_kind_pages_get) | **GET** /sites/{site_id}/a11y/issue_kinds/{issue_kind}/pages | Get pages with issues from accessibility
-*SiteimproveAPIClient::A11YNextGenApi* | [**sites_site_id_a11y_issue_kinds_issue_kind_pages_page_id_issues_get**](docs/A11YNextGenApi.md#sites_site_id_a11y_issue_kinds_issue_kind_pages_page_id_issues_get) | **GET** /sites/{site_id}/a11y/issue_kinds/{issue_kind}/pages/{page_id}/issues | Get issues on this page from accessibility
+*SiteimproveAPIClient::A11YNextGenApi* | [**sites_site_id_a11y_issue_kinds_confirmed_issues_get**](docs/A11YNextGenApi.md#sites_site_id_a11y_issue_kinds_confirmed_issues_get) | **GET** /sites/{site_id}/a11y/issue_kinds/confirmed/issues | Get confirmed accessibility issues
+*SiteimproveAPIClient::A11YNextGenApi* | [**sites_site_id_a11y_issue_kinds_confirmed_issues_issue_id_pages_get**](docs/A11YNextGenApi.md#sites_site_id_a11y_issue_kinds_confirmed_issues_issue_id_pages_get) | **GET** /sites/{site_id}/a11y/issue_kinds/confirmed/issues/{issue_id}/pages | Get pages with confirmed occurrences of this accessibility issue
+*SiteimproveAPIClient::A11YNextGenApi* | [**sites_site_id_a11y_issue_kinds_confirmed_issues_issue_id_progress_history_get**](docs/A11YNextGenApi.md#sites_site_id_a11y_issue_kinds_confirmed_issues_issue_id_progress_history_get) | **GET** /sites/{site_id}/a11y/issue_kinds/confirmed/issues/{issue_id}/progress/history | Get progress for this confirmed accessibility issue
+*SiteimproveAPIClient::A11YNextGenApi* | [**sites_site_id_a11y_issue_kinds_confirmed_pages_get**](docs/A11YNextGenApi.md#sites_site_id_a11y_issue_kinds_confirmed_pages_get) | **GET** /sites/{site_id}/a11y/issue_kinds/confirmed/pages | Get pages with confirmed accessibility issues
+*SiteimproveAPIClient::A11YNextGenApi* | [**sites_site_id_a11y_issue_kinds_confirmed_pages_page_id_issues_get**](docs/A11YNextGenApi.md#sites_site_id_a11y_issue_kinds_confirmed_pages_page_id_issues_get) | **GET** /sites/{site_id}/a11y/issue_kinds/confirmed/pages/{page_id}/issues | Get confirmed accessibility issues on this page
+*SiteimproveAPIClient::A11YNextGenApi* | [**sites_site_id_a11y_issue_kinds_passed_issues_get**](docs/A11YNextGenApi.md#sites_site_id_a11y_issue_kinds_passed_issues_get) | **GET** /sites/{site_id}/a11y/issue_kinds/passed/issues | Get passed accessibility issues
+*SiteimproveAPIClient::A11YNextGenApi* | [**sites_site_id_a11y_issue_kinds_passed_issues_issue_id_pages_get**](docs/A11YNextGenApi.md#sites_site_id_a11y_issue_kinds_passed_issues_issue_id_pages_get) | **GET** /sites/{site_id}/a11y/issue_kinds/passed/issues/{issue_id}/pages | Get pages with passed occurrences of this accessibility issue
+*SiteimproveAPIClient::A11YNextGenApi* | [**sites_site_id_a11y_issue_kinds_passed_issues_issue_id_progress_history_get**](docs/A11YNextGenApi.md#sites_site_id_a11y_issue_kinds_passed_issues_issue_id_progress_history_get) | **GET** /sites/{site_id}/a11y/issue_kinds/passed/issues/{issue_id}/progress/history | Get progress for this passed accessibility issue
+*SiteimproveAPIClient::A11YNextGenApi* | [**sites_site_id_a11y_issue_kinds_passed_pages_get**](docs/A11YNextGenApi.md#sites_site_id_a11y_issue_kinds_passed_pages_get) | **GET** /sites/{site_id}/a11y/issue_kinds/passed/pages | Get pages with passed accessibility issues
+*SiteimproveAPIClient::A11YNextGenApi* | [**sites_site_id_a11y_issue_kinds_passed_pages_page_id_issues_get**](docs/A11YNextGenApi.md#sites_site_id_a11y_issue_kinds_passed_pages_page_id_issues_get) | **GET** /sites/{site_id}/a11y/issue_kinds/passed/pages/{page_id}/issues | Get passed accessibility issues on this page
+*SiteimproveAPIClient::A11YNextGenApi* | [**sites_site_id_a11y_issue_kinds_potential_issues_get**](docs/A11YNextGenApi.md#sites_site_id_a11y_issue_kinds_potential_issues_get) | **GET** /sites/{site_id}/a11y/issue_kinds/potential/issues | Get potential accessibility issues
+*SiteimproveAPIClient::A11YNextGenApi* | [**sites_site_id_a11y_issue_kinds_potential_issues_issue_id_pages_get**](docs/A11YNextGenApi.md#sites_site_id_a11y_issue_kinds_potential_issues_issue_id_pages_get) | **GET** /sites/{site_id}/a11y/issue_kinds/potential/issues/{issue_id}/pages | Get pages with potential occurrences of this accessibility issue
+*SiteimproveAPIClient::A11YNextGenApi* | [**sites_site_id_a11y_issue_kinds_potential_issues_issue_id_progress_history_get**](docs/A11YNextGenApi.md#sites_site_id_a11y_issue_kinds_potential_issues_issue_id_progress_history_get) | **GET** /sites/{site_id}/a11y/issue_kinds/potential/issues/{issue_id}/progress/history | Get progress for this potential accessibility issue
+*SiteimproveAPIClient::A11YNextGenApi* | [**sites_site_id_a11y_issue_kinds_potential_pages_get**](docs/A11YNextGenApi.md#sites_site_id_a11y_issue_kinds_potential_pages_get) | **GET** /sites/{site_id}/a11y/issue_kinds/potential/pages | Get pages with potential accessibility issues
+*SiteimproveAPIClient::A11YNextGenApi* | [**sites_site_id_a11y_issue_kinds_potential_pages_page_id_issues_get**](docs/A11YNextGenApi.md#sites_site_id_a11y_issue_kinds_potential_pages_page_id_issues_get) | **GET** /sites/{site_id}/a11y/issue_kinds/potential/pages/{page_id}/issues | Get potential accessibility issues on this page
 *SiteimproveAPIClient::A11YNextGenApi* | [**sites_site_id_a11y_overview_groups_get**](docs/A11YNextGenApi.md#sites_site_id_a11y_overview_groups_get) | **GET** /sites/{site_id}/a11y/overview/groups | Get overview of Groups for Accessibility
 *SiteimproveAPIClient::A11YNextGenApi* | [**sites_site_id_a11y_overview_progress_history_get**](docs/A11YNextGenApi.md#sites_site_id_a11y_overview_progress_history_get) | **GET** /sites/{site_id}/a11y/overview/progress/history | Get progress for all issues and occurrences from Accessibility
 *SiteimproveAPIClient::A11YNextGenApi* | [**sites_site_id_a11y_overview_summary_get**](docs/A11YNextGenApi.md#sites_site_id_a11y_overview_summary_get) | **GET** /sites/{site_id}/a11y/overview/summary | Get summary for Accessibility
@@ -201,10 +210,6 @@ Class | Method | HTTP request | Description
 *SiteimproveAPIClient::AnalyticsApi* | [**sites_site_id_analytics_traffic_sources_external_referring_pages_external_page_id_landing_pages_get**](docs/AnalyticsApi.md#sites_site_id_analytics_traffic_sources_external_referring_pages_external_page_id_landing_pages_get) | **GET** /sites/{site_id}/analytics/traffic_sources/external_referring_pages/{external_page_id}/landing_pages | Get landing pages from external referring pages from traffic sources
 *SiteimproveAPIClient::AnalyticsApi* | [**sites_site_id_analytics_traffic_sources_external_referring_pages_external_page_id_landing_pages_history_get**](docs/AnalyticsApi.md#sites_site_id_analytics_traffic_sources_external_referring_pages_external_page_id_landing_pages_history_get) | **GET** /sites/{site_id}/analytics/traffic_sources/external_referring_pages/{external_page_id}/landing_pages/history | Get historical data for landing pages from external referring pages from traffic sources
 *SiteimproveAPIClient::AnalyticsApi* | [**sites_site_id_analytics_traffic_sources_external_referring_pages_get**](docs/AnalyticsApi.md#sites_site_id_analytics_traffic_sources_external_referring_pages_get) | **GET** /sites/{site_id}/analytics/traffic_sources/external_referring_pages | Get external referring pages from traffic sources
-*SiteimproveAPIClient::AnalyticsApi* | [**sites_site_id_analytics_traffic_sources_external_search_terms_get**](docs/AnalyticsApi.md#sites_site_id_analytics_traffic_sources_external_search_terms_get) | **GET** /sites/{site_id}/analytics/traffic_sources/external_search_terms | Get external search terms from traffic sources
-*SiteimproveAPIClient::AnalyticsApi* | [**sites_site_id_analytics_traffic_sources_external_search_terms_search_term_id_history_get**](docs/AnalyticsApi.md#sites_site_id_analytics_traffic_sources_external_search_terms_search_term_id_history_get) | **GET** /sites/{site_id}/analytics/traffic_sources/external_search_terms/{search_term_id}/history | Get historical data for external search terms from traffic sources
-*SiteimproveAPIClient::AnalyticsApi* | [**sites_site_id_analytics_traffic_sources_external_search_terms_search_term_id_pages_get**](docs/AnalyticsApi.md#sites_site_id_analytics_traffic_sources_external_search_terms_search_term_id_pages_get) | **GET** /sites/{site_id}/analytics/traffic_sources/external_search_terms/{search_term_id}/pages | Get external search terms pages from traffic sources
-*SiteimproveAPIClient::AnalyticsApi* | [**sites_site_id_analytics_traffic_sources_external_search_terms_search_term_id_pages_page_id_history_get**](docs/AnalyticsApi.md#sites_site_id_analytics_traffic_sources_external_search_terms_search_term_id_pages_page_id_history_get) | **GET** /sites/{site_id}/analytics/traffic_sources/external_search_terms/{search_term_id}/pages/{page_id}/history | Get historical data for external search terms pages from traffic sources
 *SiteimproveAPIClient::AnalyticsApi* | [**sites_site_id_analytics_traffic_sources_search_engines_get**](docs/AnalyticsApi.md#sites_site_id_analytics_traffic_sources_search_engines_get) | **GET** /sites/{site_id}/analytics/traffic_sources/search_engines | Get search engines from traffic sources
 *SiteimproveAPIClient::AnalyticsApi* | [**sites_site_id_analytics_traffic_sources_search_engines_search_engine_id_domains_domain_id_domain_links_domain_link_id_history_get**](docs/AnalyticsApi.md#sites_site_id_analytics_traffic_sources_search_engines_search_engine_id_domains_domain_id_domain_links_domain_link_id_history_get) | **GET** /sites/{site_id}/analytics/traffic_sources/search_engines/{search_engine_id}/domains/{domain_id}/domain_links/{domain_link_id}/history | Get historical data for specific search engine domain link from traffic sources
 *SiteimproveAPIClient::AnalyticsApi* | [**sites_site_id_analytics_traffic_sources_search_engines_search_engine_id_domains_domain_id_domain_links_get**](docs/AnalyticsApi.md#sites_site_id_analytics_traffic_sources_search_engines_search_engine_id_domains_domain_id_domain_links_get) | **GET** /sites/{site_id}/analytics/traffic_sources/search_engines/{search_engine_id}/domains/{domain_id}/domain_links | Get links for specific search engine domain from traffic sources
@@ -955,10 +960,6 @@ Class | Method | HTTP request | Description
  - [SiteimproveAPIClient::ExternalReferringPageLandingPage](docs/ExternalReferringPageLandingPage.md)
  - [SiteimproveAPIClient::ExternalReferringPageLandingPageList](docs/ExternalReferringPageLandingPageList.md)
  - [SiteimproveAPIClient::ExternalReferringPageList](docs/ExternalReferringPageList.md)
- - [SiteimproveAPIClient::ExternalSearchTerm](docs/ExternalSearchTerm.md)
- - [SiteimproveAPIClient::ExternalSearchTermList](docs/ExternalSearchTermList.md)
- - [SiteimproveAPIClient::ExternalSearchTermPage](docs/ExternalSearchTermPage.md)
- - [SiteimproveAPIClient::ExternalSearchTermPageList](docs/ExternalSearchTermPageList.md)
  - [SiteimproveAPIClient::FeedbackIgnored](docs/FeedbackIgnored.md)
  - [SiteimproveAPIClient::FeedbackIgnoredList](docs/FeedbackIgnoredList.md)
  - [SiteimproveAPIClient::FeedbackNote](docs/FeedbackNote.md)
@@ -1165,7 +1166,6 @@ Class | Method | HTTP request | Description
  - [SiteimproveAPIClient::Href250](docs/Href250.md)
  - [SiteimproveAPIClient::Href251](docs/Href251.md)
  - [SiteimproveAPIClient::Href252](docs/Href252.md)
- - [SiteimproveAPIClient::Href253](docs/Href253.md)
  - [SiteimproveAPIClient::Href26](docs/Href26.md)
  - [SiteimproveAPIClient::Href27](docs/Href27.md)
  - [SiteimproveAPIClient::Href28](docs/Href28.md)

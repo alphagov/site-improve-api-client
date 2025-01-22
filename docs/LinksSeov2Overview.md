@@ -4,8 +4,8 @@
 
 | Name | Type | Description | Notes |
 | ---- | ---- | ----------- | ----- |
-| **groups** | [**Href180**](Href180.md) |  | [optional] |
-| **score** | [**Href181**](Href181.md) |  | [optional] |
+| **groups** | [**Href179**](Href179.md) |  | [optional] |
+| **score** | [**Href180**](Href180.md) |  | [optional] |
 
 ## Example
 

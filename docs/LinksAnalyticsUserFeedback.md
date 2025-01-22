@@ -4,7 +4,7 @@
 
 | Name | Type | Description | Notes |
 | ---- | ---- | ----------- | ----- |
-| **surveys** | [**Href104**](Href104.md) |  | [optional] |
+| **surveys** | [**Href103**](Href103.md) |  | [optional] |
 
 ## Example
 

@@ -4,7 +4,7 @@
 
 | Name | Type | Description | Notes |
 | ---- | ---- | ----------- | ----- |
-| **referring_pages** | [**Href200**](Href200.md) |  | [optional] |
+| **referring_pages** | [**Href199**](Href199.md) |  | [optional] |
 
 ## Example
 

@@ -4,7 +4,7 @@
 
 | Name | Type | Description | Notes |
 | ---- | ---- | ----------- | ----- |
-| **id** | **Integer** | Id of the user. |  |
+| **id** | **Integer** | NOTRANSLATION: TK: SIAPI_DTO_PROPERTY / User.id ¤ |  |
 | **name** | **String** | Full name of user. | [optional] |
 | **email** | **String** | Email address of user. | [optional] |
 | **last_login** | **Time** | Timestamp for last log in of user. | [optional] |

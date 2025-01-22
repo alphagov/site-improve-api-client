@@ -4,7 +4,7 @@
 
 | Name | Type | Description | Notes |
 | ---- | ---- | ----------- | ----- |
-| **broken_links** | [**Href233**](Href233.md) |  | [optional] |
+| **broken_links** | [**Href232**](Href232.md) |  | [optional] |
 
 ## Example
 

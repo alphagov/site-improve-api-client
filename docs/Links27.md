@@ -4,7 +4,7 @@
 
 | Name | Type | Description | Notes |
 | ---- | ---- | ----------- | ----- |
-| **last_outbound_links** | [**Href196**](Href196.md) |  | [optional] |
+| **last_outbound_links** | [**Href195**](Href195.md) |  | [optional] |
 
 ## Example
 

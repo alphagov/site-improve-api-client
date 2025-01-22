@@ -4,7 +4,7 @@
 
 | Name | Type | Description | Notes |
 | ---- | ---- | ----------- | ----- |
-| **page_report** | [**Href223**](Href223.md) |  | [optional] |
+| **page_report** | [**Href222**](Href222.md) |  | [optional] |
 
 ## Example
 

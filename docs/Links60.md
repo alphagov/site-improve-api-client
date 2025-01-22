@@ -4,12 +4,12 @@
 
 | Name | Type | Description | Notes |
 | ---- | ---- | ----------- | ----- |
-| **competitors** | [**Href244**](Href244.md) |  | [optional] |
-| **content_optimization_keywords** | [**Href245**](Href245.md) |  | [optional] |
-| **history** | [**Href194**](Href194.md) |  | [optional] |
-| **issues** | [**Href185**](Href185.md) |  | [optional] |
-| **keywords** | [**Href246**](Href246.md) |  | [optional] |
-| **target_pages** | [**Href247**](Href247.md) |  | [optional] |
+| **competitors** | [**Href243**](Href243.md) |  | [optional] |
+| **content_optimization_keywords** | [**Href244**](Href244.md) |  | [optional] |
+| **history** | [**Href193**](Href193.md) |  | [optional] |
+| **issues** | [**Href184**](Href184.md) |  | [optional] |
+| **keywords** | [**Href245**](Href245.md) |  | [optional] |
+| **target_pages** | [**Href246**](Href246.md) |  | [optional] |
 
 ## Example
 

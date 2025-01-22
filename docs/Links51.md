@@ -4,8 +4,8 @@
 
 | Name | Type | Description | Notes |
 | ---- | ---- | ----------- | ----- |
-| **pages_with_script** | [**Href231**](Href231.md) |  | [optional] |
-| **pages_without_script** | [**Href232**](Href232.md) |  | [optional] |
+| **pages_with_script** | [**Href230**](Href230.md) |  | [optional] |
+| **pages_without_script** | [**Href231**](Href231.md) |  | [optional] |
 
 ## Example
 

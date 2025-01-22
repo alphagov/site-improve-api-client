@@ -4,7 +4,7 @@
 
 | Name | Type | Description | Notes |
 | ---- | ---- | ----------- | ----- |
-| **steps** | [**Href243**](Href243.md) |  | [optional] |
+| **steps** | [**Href242**](Href242.md) |  | [optional] |
 
 ## Example
 

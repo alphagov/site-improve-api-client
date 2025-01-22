@@ -4,8 +4,8 @@
 
 | Name | Type | Description | Notes |
 | ---- | ---- | ----------- | ----- |
-| **domains** | [**Href202**](Href202.md) |  | [optional] |
-| **history** | [**Href194**](Href194.md) |  | [optional] |
+| **domains** | [**Href201**](Href201.md) |  | [optional] |
+| **history** | [**Href193**](Href193.md) |  | [optional] |
 | **pages** | [**Href12**](Href12.md) |  | [optional] |
 
 ## Example

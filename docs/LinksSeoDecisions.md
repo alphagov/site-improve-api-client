@@ -4,8 +4,8 @@
 
 | Name | Type | Description | Notes |
 | ---- | ---- | ----------- | ----- |
-| **ignored_issues** | [**Href168**](Href168.md) |  | [optional] |
-| **ignored_pages** | [**Href169**](Href169.md) |  | [optional] |
+| **ignored_issues** | [**Href167**](Href167.md) |  | [optional] |
+| **ignored_pages** | [**Href168**](Href168.md) |  | [optional] |
 
 ## Example
 

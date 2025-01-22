@@ -4,8 +4,8 @@
 
 | Name | Type | Description | Notes |
 | ---- | ---- | ----------- | ----- |
-| **issues** | [**Href186**](Href186.md) |  | [optional] |
-| **pages** | [**Href187**](Href187.md) |  | [optional] |
+| **issues** | [**Href185**](Href185.md) |  | [optional] |
+| **pages** | [**Href186**](Href186.md) |  | [optional] |
 
 ## Example
 

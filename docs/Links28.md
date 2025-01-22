@@ -4,7 +4,7 @@
 
 | Name | Type | Description | Notes |
 | ---- | ---- | ----------- | ----- |
-| **labels** | [**Href197**](Href197.md) |  | [optional] |
+| **labels** | [**Href196**](Href196.md) |  | [optional] |
 | **pages** | [**Href12**](Href12.md) |  | [optional] |
 
 ## Example

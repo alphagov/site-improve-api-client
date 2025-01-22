@@ -4,8 +4,8 @@
 
 | Name | Type | Description | Notes |
 | ---- | ---- | ----------- | ----- |
-| **referring_documents** | [**Href228**](Href228.md) |  | [optional] |
-| **referring_pages** | [**Href200**](Href200.md) |  | [optional] |
+| **referring_documents** | [**Href227**](Href227.md) |  | [optional] |
+| **referring_pages** | [**Href199**](Href199.md) |  | [optional] |
 
 ## Example
 

@@ -4,7 +4,7 @@
 
 | Name | Type | Description | Notes |
 | ---- | ---- | ----------- | ----- |
-| **all** | [**Href183**](Href183.md) |  | [optional] |
+| **all** | [**Href182**](Href182.md) |  | [optional] |
 
 ## Example
 

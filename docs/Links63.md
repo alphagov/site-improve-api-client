@@ -4,11 +4,11 @@
 
 | Name | Type | Description | Notes |
 | ---- | ---- | ----------- | ----- |
-| **competing_content_issues** | [**Href250**](Href250.md) |  | [optional] |
-| **issues** | [**Href185**](Href185.md) |  | [optional] |
-| **keyword_issues** | [**Href251**](Href251.md) |  | [optional] |
-| **keyword_occurrences** | [**Href252**](Href252.md) |  | [optional] |
-| **keywords** | [**Href246**](Href246.md) |  | [optional] |
+| **competing_content_issues** | [**Href249**](Href249.md) |  | [optional] |
+| **issues** | [**Href184**](Href184.md) |  | [optional] |
+| **keyword_issues** | [**Href250**](Href250.md) |  | [optional] |
+| **keyword_occurrences** | [**Href251**](Href251.md) |  | [optional] |
+| **keywords** | [**Href245**](Href245.md) |  | [optional] |
 
 ## Example
 

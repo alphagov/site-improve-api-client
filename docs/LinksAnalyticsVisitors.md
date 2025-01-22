@@ -4,12 +4,12 @@
 
 | Name | Type | Description | Notes |
 | ---- | ---- | ----------- | ----- |
-| **browsers** | [**Href105**](Href105.md) |  | [optional] |
-| **countries** | [**Href106**](Href106.md) |  | [optional] |
-| **devices** | [**Href107**](Href107.md) |  | [optional] |
-| **operating_systems** | [**Href108**](Href108.md) |  | [optional] |
-| **organisations** | [**Href109**](Href109.md) |  | [optional] |
-| **screen_resolutions** | [**Href110**](Href110.md) |  | [optional] |
+| **browsers** | [**Href104**](Href104.md) |  | [optional] |
+| **countries** | [**Href105**](Href105.md) |  | [optional] |
+| **devices** | [**Href106**](Href106.md) |  | [optional] |
+| **operating_systems** | [**Href107**](Href107.md) |  | [optional] |
+| **organisations** | [**Href108**](Href108.md) |  | [optional] |
+| **screen_resolutions** | [**Href109**](Href109.md) |  | [optional] |
 
 ## Example
 

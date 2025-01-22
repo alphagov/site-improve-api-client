@@ -6,7 +6,7 @@
 | ---- | ---- | ----------- | ----- |
 | **_next** | [**Href9**](Href9.md) |  | [optional] |
 | **prev** | [**Href10**](Href10.md) |  | [optional] |
-| **history** | [**Href193**](Href193.md) |  | [optional] |
+| **history** | [**Href192**](Href192.md) |  | [optional] |
 | **_self** | [**Href8**](Href8.md) |  | [optional] |
 
 ## Example

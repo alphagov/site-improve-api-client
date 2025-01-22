@@ -4,11 +4,11 @@
 
 | Name | Type | Description | Notes |
 | ---- | ---- | ----------- | ----- |
-| **broken_links** | [**Href216**](Href216.md) |  | [optional] |
-| **misspellings** | [**Href217**](Href217.md) |  | [optional] |
-| **potential_misspellings** | [**Href218**](Href218.md) |  | [optional] |
-| **referring_pages** | [**Href219**](Href219.md) |  | [optional] |
-| **words_to_review** | [**Href220**](Href220.md) |  | [optional] |
+| **broken_links** | [**Href215**](Href215.md) |  | [optional] |
+| **misspellings** | [**Href216**](Href216.md) |  | [optional] |
+| **potential_misspellings** | [**Href217**](Href217.md) |  | [optional] |
+| **referring_pages** | [**Href218**](Href218.md) |  | [optional] |
+| **words_to_review** | [**Href219**](Href219.md) |  | [optional] |
 
 ## Example
 

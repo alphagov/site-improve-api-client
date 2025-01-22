@@ -4,14 +4,14 @@
 
 | Name | Type | Description | Notes |
 | ---- | ---- | ----------- | ----- |
-| **broken_links** | [**Href233**](Href233.md) |  | [optional] |
-| **broken_links_in_documents** | [**Href234**](Href234.md) |  | [optional] |
-| **known_links** | [**Href235**](Href235.md) |  | [optional] |
-| **known_pages** | [**Href236**](Href236.md) |  | [optional] |
-| **new_links** | [**Href237**](Href237.md) |  | [optional] |
-| **new_pages** | [**Href238**](Href238.md) |  | [optional] |
-| **removed_links** | [**Href239**](Href239.md) |  | [optional] |
-| **removed_pages** | [**Href240**](Href240.md) |  | [optional] |
+| **broken_links** | [**Href232**](Href232.md) |  | [optional] |
+| **broken_links_in_documents** | [**Href233**](Href233.md) |  | [optional] |
+| **known_links** | [**Href234**](Href234.md) |  | [optional] |
+| **known_pages** | [**Href235**](Href235.md) |  | [optional] |
+| **new_links** | [**Href236**](Href236.md) |  | [optional] |
+| **new_pages** | [**Href237**](Href237.md) |  | [optional] |
+| **removed_links** | [**Href238**](Href238.md) |  | [optional] |
+| **removed_pages** | [**Href239**](Href239.md) |  | [optional] |
 
 ## Example
 

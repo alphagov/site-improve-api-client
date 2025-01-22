@@ -4,8 +4,8 @@
 
 | Name | Type | Description | Notes |
 | ---- | ---- | ----------- | ----- |
-| **crawl** | [**Href172**](Href172.md) |  | [optional] |
-| **pages** | [**Href173**](Href173.md) |  | [optional] |
+| **crawl** | [**Href171**](Href171.md) |  | [optional] |
+| **pages** | [**Href172**](Href172.md) |  | [optional] |
 
 ## Example
 

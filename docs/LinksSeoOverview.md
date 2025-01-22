@@ -4,9 +4,9 @@
 
 | Name | Type | Description | Notes |
 | ---- | ---- | ----------- | ----- |
-| **summary** | [**Href165**](Href165.md) |  | [optional] |
-| **groups** | [**Href166**](Href166.md) |  | [optional] |
-| **policies** | [**Href167**](Href167.md) |  | [optional] |
+| **summary** | [**Href164**](Href164.md) |  | [optional] |
+| **groups** | [**Href165**](Href165.md) |  | [optional] |
+| **policies** | [**Href166**](Href166.md) |  | [optional] |
 
 ## Example
 

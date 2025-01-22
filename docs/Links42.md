@@ -4,7 +4,7 @@
 
 | Name | Type | Description | Notes |
 | ---- | ---- | ----------- | ----- |
-| **cities** | [**Href212**](Href212.md) |  | [optional] |
+| **cities** | [**Href211**](Href211.md) |  | [optional] |
 
 ## Example
 

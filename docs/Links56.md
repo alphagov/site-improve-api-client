@@ -4,10 +4,10 @@
 
 | Name | Type | Description | Notes |
 | ---- | ---- | ----------- | ----- |
-| **broken_links** | [**Href233**](Href233.md) |  | [optional] |
-| **misspellings** | [**Href241**](Href241.md) |  | [optional] |
+| **broken_links** | [**Href232**](Href232.md) |  | [optional] |
+| **misspellings** | [**Href240**](Href240.md) |  | [optional] |
 | **pages** | [**Href12**](Href12.md) |  | [optional] |
-| **potential_misspellings** | [**Href242**](Href242.md) |  | [optional] |
+| **potential_misspellings** | [**Href241**](Href241.md) |  | [optional] |
 | **users** | [**Href37**](Href37.md) |  | [optional] |
 
 ## Example

@@ -4,9 +4,9 @@
 
 | Name | Type | Description | Notes |
 | ---- | ---- | ----------- | ----- |
-| **excluded_pages** | [**Href152**](Href152.md) |  | [optional] |
-| **pages** | [**Href153**](Href153.md) |  | [optional] |
-| **scores** | [**Href154**](Href154.md) |  | [optional] |
+| **excluded_pages** | [**Href151**](Href151.md) |  | [optional] |
+| **pages** | [**Href152**](Href152.md) |  | [optional] |
+| **scores** | [**Href153**](Href153.md) |  | [optional] |
 
 ## Example
 

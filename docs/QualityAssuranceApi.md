@@ -7245,6 +7245,7 @@ site_id = 789 # Integer | Id for specific site.
 word_id = 789 # Integer | Id for specific word.
 opts = {
   group_id: 789, # Integer | Id for specific group.
+  ids: [3.56], # Array<Integer> | Return all items that is one of the listed identifiers.  Values are separated by comma, as in ids=1,2,3.
   page: 56, # Integer | Page number to show when more than one page in paged output.
   page_size: 56 # Integer | Number of items/records per page in paged output.
 }
@@ -7283,6 +7284,7 @@ end
 | **site_id** | **Integer** | Id for specific site. |  |
 | **word_id** | **Integer** | Id for specific word. |  |
 | **group_id** | **Integer** | Id for specific group. | [optional] |
+| **ids** | [**Array&lt;Integer&gt;**](Integer.md) | Return all items that is one of the listed identifiers.  Values are separated by comma, as in ids&#x3D;1,2,3. | [optional] |
 | **page** | **Integer** | Page number to show when more than one page in paged output. | [optional][default to 1] |
 | **page_size** | **Integer** | Number of items/records per page in paged output. | [optional][default to 10] |
 
@@ -8299,6 +8301,7 @@ site_id = 789 # Integer | Id for specific site.
 word_id = 789 # Integer | Id for specific word.
 opts = {
   group_id: 789, # Integer | Id for specific group.
+  ids: [3.56], # Array<Integer> | Return all items that is one of the listed identifiers.  Values are separated by comma, as in ids=1,2,3.
   page: 56, # Integer | Page number to show when more than one page in paged output.
   page_size: 56 # Integer | Number of items/records per page in paged output.
 }
@@ -8337,6 +8340,7 @@ end
 | **site_id** | **Integer** | Id for specific site. |  |
 | **word_id** | **Integer** | Id for specific word. |  |
 | **group_id** | **Integer** | Id for specific group. | [optional] |
+| **ids** | [**Array&lt;Integer&gt;**](Integer.md) | Return all items that is one of the listed identifiers.  Values are separated by comma, as in ids&#x3D;1,2,3. | [optional] |
 | **page** | **Integer** | Page number to show when more than one page in paged output. | [optional][default to 1] |
 | **page_size** | **Integer** | Number of items/records per page in paged output. | [optional][default to 10] |
 

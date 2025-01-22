@@ -4,8 +4,8 @@
 
 | Name | Type | Description | Notes |
 | ---- | ---- | ----------- | ----- |
-| **pages_with_css** | [**Href229**](Href229.md) |  | [optional] |
-| **pages_without_css** | [**Href230**](Href230.md) |  | [optional] |
+| **pages_with_css** | [**Href228**](Href228.md) |  | [optional] |
+| **pages_without_css** | [**Href229**](Href229.md) |  | [optional] |
 
 ## Example
 

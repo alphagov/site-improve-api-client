@@ -4,7 +4,7 @@
 
 | Name | Type | Description | Notes |
 | ---- | ---- | ----------- | ----- |
-| **pdfs** | [**Href190**](Href190.md) |  | [optional] |
+| **pdfs** | [**Href189**](Href189.md) |  | [optional] |
 
 ## Example
 

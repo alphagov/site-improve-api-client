@@ -4,8 +4,8 @@
 
 | Name | Type | Description | Notes |
 | ---- | ---- | ----------- | ----- |
-| **misspellings** | [**Href241**](Href241.md) |  | [optional] |
-| **potential_misspellings** | [**Href242**](Href242.md) |  | [optional] |
+| **misspellings** | [**Href240**](Href240.md) |  | [optional] |
+| **potential_misspellings** | [**Href241**](Href241.md) |  | [optional] |
 
 ## Example
 

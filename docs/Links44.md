@@ -5,7 +5,7 @@
 | Name | Type | Description | Notes |
 | ---- | ---- | ----------- | ----- |
 | **summary** | [**LinksSummary**](LinksSummary.md) |  | [optional] |
-| **unpublish_impact** | [**Href221**](Href221.md) |  | [optional] |
+| **unpublish_impact** | [**Href220**](Href220.md) |  | [optional] |
 | **_self** | [**Href8**](Href8.md) |  | [optional] |
 
 ## Example

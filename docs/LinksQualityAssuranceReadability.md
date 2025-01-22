@@ -4,7 +4,7 @@
 
 | Name | Type | Description | Notes |
 | ---- | ---- | ----------- | ----- |
-| **accepted_words** | [**Href136**](Href136.md) |  | [optional] |
+| **accepted_words** | [**Href135**](Href135.md) |  | [optional] |
 | **tests** | [**LinksQualityAssuranceReadabilityTests**](LinksQualityAssuranceReadabilityTests.md) |  | [optional] |
 
 ## Example

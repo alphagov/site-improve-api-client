@@ -4,7 +4,7 @@
 
 | Name | Type | Description | Notes |
 | ---- | ---- | ----------- | ----- |
-| **ranking_pages** | [**Href253**](Href253.md) |  | [optional] |
+| **ranking_pages** | [**Href252**](Href252.md) |  | [optional] |
 
 ## Example
 

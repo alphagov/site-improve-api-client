@@ -4,8 +4,8 @@
 
 | Name | Type | Description | Notes |
 | ---- | ---- | ----------- | ----- |
-| **events** | [**Href199**](Href199.md) |  | [optional] |
-| **history** | [**Href194**](Href194.md) |  | [optional] |
+| **events** | [**Href198**](Href198.md) |  | [optional] |
+| **history** | [**Href193**](Href193.md) |  | [optional] |
 
 ## Example
 

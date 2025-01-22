@@ -4,7 +4,7 @@
 
 | Name | Type | Description | Notes |
 | ---- | ---- | ----------- | ----- |
-| **ratings** | [**Href209**](Href209.md) |  | [optional] |
+| **ratings** | [**Href208**](Href208.md) |  | [optional] |
 
 ## Example
 

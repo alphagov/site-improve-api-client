@@ -5,7 +5,7 @@
 | Name | Type | Description | Notes |
 | ---- | ---- | ----------- | ----- |
 | **details** | [**Href15**](Href15.md) |  | [optional] |
-| **history** | [**Href194**](Href194.md) |  | [optional] |
+| **history** | [**Href193**](Href193.md) |  | [optional] |
 
 ## Example
 

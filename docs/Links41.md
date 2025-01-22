@@ -4,7 +4,7 @@
 
 | Name | Type | Description | Notes |
 | ---- | ---- | ----------- | ----- |
-| **regions** | [**Href211**](Href211.md) |  | [optional] |
+| **regions** | [**Href210**](Href210.md) |  | [optional] |
 
 ## Example
 

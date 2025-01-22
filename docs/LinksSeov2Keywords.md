@@ -4,8 +4,8 @@
 
 | Name | Type | Description | Notes |
 | ---- | ---- | ----------- | ----- |
-| **all** | [**Href178**](Href178.md) |  | [optional] |
-| **content_optimization_keywords** | [**Href179**](Href179.md) |  | [optional] |
+| **all** | [**Href177**](Href177.md) |  | [optional] |
+| **content_optimization_keywords** | [**Href178**](Href178.md) |  | [optional] |
 
 ## Example
 
